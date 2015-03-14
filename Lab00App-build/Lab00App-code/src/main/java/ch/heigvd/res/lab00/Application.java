@@ -29,7 +29,13 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
-
-}
+  
+  public void playMusic(IInstrument instrument){
+      instrument.play();
+  }
+  
+  public void playMusicWithTrumpet(Trumpet t) {
+      t.play();}
+          }
